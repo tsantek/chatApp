@@ -1,0 +1,32 @@
+body {
+  color: blue;
+}
+html {
+  margin-top: 20px;
+}
+
+#chat-content {
+  height: 180px;  overflow-y: scroll;
+}
+
+
+.form-container {
+  border: solid 2px;
+  border-image: linear-gradient(90deg, rgb(224,225,226), rgb(33,186,69)) 1;
+  margin-top: 25vh;
+
+}
+ .create-join-buttons {
+   width: 100%;
+   justify-content: center;
+ }
+
+#createButton {
+  width: 25%;
+  margin-left: 25%;
+}
+
+#joinButton {
+  width: 25%;
+  margin-right: 25%;
+}
