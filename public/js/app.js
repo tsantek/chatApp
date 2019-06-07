@@ -57,7 +57,7 @@ window.addEventListener('load', () => {
             remoteVideosEl.append(html);
         }
         $(`#${id}`).html(video);
-        $(`#${id} video`).addClass('ui image medium'); // Make video element responsive
+        $(`#${id} video`).addClass('ui image large'); // Make video element responsive
         remoteVideosCount += 1;
     });
 
@@ -145,8 +145,14 @@ window.addEventListener('load', () => {
         const roomName = $('#roomName').val().toLowerCase();
         if (event.target.id === 'create-btn') {
             createRoom(roomName);
+            $('#mainLogin').addClass('left')
+            $('#loginContainer').addClass('no-margin')
+            $('#localCamera').removeClass('hidden-camera')
         } else {
             joinRoom(roomName);
+            $('#mainLogin').addClass('left')
+            $('#loginContainer').addClass('no-margin')
+            $('#localCamera').removeClass('hidden-camera')
         }
         return false;
     });

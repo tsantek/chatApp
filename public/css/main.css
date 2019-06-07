@@ -1,12 +1,12 @@
 body {
-  color: blue;
+  color: orange;
 }
 html {
   margin-top: 20px;
 }
 
 #chat-content {
-  height: 180px;  overflow-y: scroll;
+  height: 470px;  overflow-y: scroll;
 }
 
 
@@ -29,4 +29,30 @@ html {
 #joinButton {
   width: 25%;
   margin-right: 25%;
+}
+
+.nerp {
+  border: none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+.no-margin {
+  margin: 40px;
+}
+
+.left {
+  justify-content: left !important;
+}
+
+.hidden-camera {
+  display: none !important;
+}
+
+#localCamera {
+  margin-top: 40px;
+}
+
+#remote-videos {
+  margin-top: 45px;
 }
