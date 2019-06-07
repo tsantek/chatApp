@@ -146,13 +146,9 @@ window.addEventListener('load', () => {
         if (event.target.id === 'create-btn') {
             createRoom(roomName);
             $('#mainLogin').addClass('left')
-            $('#loginContainer').addClass('no-margin')
-            $('#localCamera').removeClass('hidden-camera')
         } else {
             joinRoom(roomName);
             $('#mainLogin').addClass('left')
-            $('#loginContainer').addClass('no-margin')
-            $('#localCamera').removeClass('hidden-camera')
         }
         return false;
     });
