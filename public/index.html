@@ -9,37 +9,16 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <!-- Main Content -->
   <div class="ui container">
     <h1 class="ui header">Ch@ App</h1>
     <hr>
 
-
-
-<!-- <div class='chat-template'>
-  <div class="event">
-  <div class="label">
-    <i class="icon blue user"></i>
-  </div>
-  <div class="content">
-    <div class="summary">
-      <a href="#">username</a> posted on
-      <div class="date">
-        June 7
-      </div>
-    </div>
-    <div class="extra text">
-      hello there
-    </div>
-  </div>
-</div>
-  </div> -->
   <div class="ui container">
    <div id='mainLogin' class="centered ui two column stackable grid">
      <div id='loginContainer' class="form-container ui eight wide column">
        <div class="nerp ui segment">
 
-         <!-- Chat Room Form -->
+
         <div class="ui centered grid">
            <div class="ui form">
              <div class="fields">
@@ -61,36 +40,12 @@
            </div>
          </div>
 
-         <!-- <div class="ui centered grid">
-           <div class="form-container six width tablet twelve wide computer column">
-             <div class="ui small form">
-               <div class="two fields">
-                 <div class="field">
-                   <label>Name</label>
-                   <input type="text" placeholder="Enter user name" id="username" name="username">
-                 </div>
-                 <div class="field">
-                   <label>Room Name</label>
-                   <input type="text" placeholder="Enter room name" id="roomName" name="roomName">
-                 </div>
-               </div>
-               <div id='butt' class="create-join-buttons ui buttons">
-               <button id='create-btn' class="ui button">Create Room</button>
-               <div class="or"></div>
-               <button id='join-btn' class="ui positive button">Join Room</button>
-             </div>
-             </div>
-           </div>
-         </div>
-       </div> -->
-
-         <!-- Chat Room Messages -->
          <div id="chat"></div>
        </div>
 
      </div>
 
-     <!-- Local Camera -->
+
      <div id='localCamera' class="ui six wide column hidden-camera">
        <img  id="local-image" class="ui large image" src="images/image.png">
        <video id="local-video" class="ui large image"  autoplay></video>
@@ -99,19 +54,13 @@
 
      </div>
    </div>
-
-   <!-- Remote Cameras -->
-
-
- <!-- TEMPLATES -->
- <!-- Remote Video Template -->
  <script id="remote-video-template" type="text/x-handlebars-template">
    <div id="{{ id }}" class="four wide column">
      <img class="ui centered large image" src="images/image.png">
    </div>
  </script>
 
- <!-- Chat Content Template -->
+
  <script id="chat-content-template" type="text/x-handlebars-template">
   {{#each messages}}
    <div class="event">
@@ -133,7 +82,7 @@
  {{/each}}
  </script>
 
- <!-- Chat Template -->
+
  <script id="chat-template" type="text/x-handlebars-template">
    <h3 class="ui orange" style='text-transform: uppercase; margin-top: 25px'><strong>{{ room }}</strong></h3>
    <hr>
@@ -148,9 +97,6 @@
    </div>
  </script>
 
-
-
-  <!-- Scripts -->
   <script src="scripts/jquery/dist/jquery.min.js"></script>
   <script src="scripts/semantic-ui-css/semantic.min.js"></script>
   <script src="scripts/handlebars/dist/handlebars.min.js "></script>
