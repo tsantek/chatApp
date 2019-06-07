@@ -145,10 +145,8 @@ window.addEventListener('load', () => {
         const roomName = $('#roomName').val().toLowerCase();
         if (event.target.id === 'create-btn') {
             createRoom(roomName);
-            $('#mainLogin').addClass('left')
         } else {
             joinRoom(roomName);
-            $('#mainLogin').addClass('left')
         }
         return false;
     });
