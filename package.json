@@ -19,7 +19,7 @@
   "homepage": "https://github.com/tsantek/chatApp#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "handlebars": "^4.3.0",
+    "handlebars": "^4.7.7",
     "jquery": "^3.5.0",
     "semantic-ui-css": "^2.4.1",
     "simplewebrtc": "^3.0.2"
